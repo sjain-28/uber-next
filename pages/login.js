@@ -5,7 +5,7 @@ import { signInWithPopup, onAuthStateChanged } from "firebase/auth";
 import {auth,provider} from "../firebase";
 
 
-const login = () => {
+const Login = () => {
 
     const router = useRouter();
     useEffect(() => {
@@ -29,7 +29,7 @@ const login = () => {
     );
 }
 
-export default login;
+export default Login;
 
 const Wrapper = tw.div`
 flex flex-col bg-gray-200 h-screen p-4

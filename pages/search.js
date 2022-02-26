@@ -1,7 +1,7 @@
 import tw from "tailwind-styled-components";
 import Link from 'next/link';
 import { useState } from "react";
-const search = () => {
+const Search = () => {
     const [pickup, setPickup] = useState("");
     const [dropoff, setDropoff] = useState("");
     return (
@@ -47,7 +47,7 @@ const search = () => {
     );
 }
 
-export default search;
+export default Search;
 
 const ConfirmButtonContainer = tw.div`
 bg-black text-white text-center mt-2 mx-4 px-4 py-3 text-2xl cursor-pointer

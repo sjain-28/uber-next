@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import RideSelector from "./components/RideSelector";
 import Link from 'next/link';
 
-const confirm = () => {
+const Confirm = () => {
     const router = useRouter();
     //from search page
     const { pickup, dropoff } = router.query;
@@ -66,7 +66,7 @@ const confirm = () => {
     );
 }
 
-export default confirm;
+export default Confirm;
 
 const Wrapper = tw.div`
 flex h-screen flex-col
