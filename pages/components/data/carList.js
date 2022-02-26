@@ -1,4 +1,4 @@
-const carList = [
+export const carList = [
     {
         imgUrl: "https://i.ibb.co/cyvcpfF/uberx.png",
         service: "UberX",
@@ -27,4 +27,3 @@ const carList = [
 
 ];
 
-export default carList;
